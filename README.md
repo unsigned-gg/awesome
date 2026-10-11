@@ -1,21 +1,36 @@
 # Awesome Unsigned [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of autonomous agent orchestrators, pooled harnesses, bare-metal infrastructure, and deterministic plumbing across [unsigned.gg](https://unsigned.gg) and the broader open ecosystem.
+> A curated catalog of autonomous agent orchestrators, pooled harnesses, bare-metal infrastructure, and machine sympathy research across [unsigned.gg](https://unsigned.gg) and the open systems community.
 
 The engine: open, forkable compute, storage, and scheduling priced like plumbing.
 
 ---
 
+## Mission & Public Domain Charter
+
+The **unsigned** organization exists to test agent swarm control, governance, and security in production environments.
+While running these tests, the organization lands foundational research on machine sympathy, systems security, and mathematical- and engineering-driven development:
+
+* **Swarm Control, Governance & Security:** Testing autonomous agent fleets, capability confinement, Landlock LSM containment, and cryptographic attestation.
+* **Machine Sympathy:** Hardware-sympathetic systems engineering, zero-allocation domain crates, `pidfd` process management, and deterministic instruction-count profiling.
+* **Mathematical & Engineering-Driven Development:** Operational semantics, model checking, and formal verification over empirical guesswork.
+* **Permanent Public Domain:** All work, codebases, specifications, and research findings in this organization remain permanently in the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+
+---
+
 ## Contents
 
+- [Mission & Public Domain Charter](#mission--public-domain-charter)
 - [The Orchestrator & Autonomous Workforces](#the-orchestrator--autonomous-workforces)
 - [Agent Substrates & Runtimes](#agent-substrates--runtimes)
+- [Process Supervision & Systems Core](#process-supervision--systems-core)
 - [Session Multiplexing & Multi-Agent Observability](#session-multiplexing--multi-agent-observability)
 - [Deterministic Dispatch & Scheduling](#deterministic-dispatch--scheduling)
 - [Sandboxing & Execution Containment](#sandboxing--execution-containment)
 - [Bare-Metal & Infrastructure](#bare-metal--infrastructure)
 - [Terminal Interfaces & Coding Agents](#terminal-interfaces--coding-agents)
 - [Contributing](#contributing)
+- [License](#license)
 
 ---
 
@@ -25,6 +40,7 @@ The engine: open, forkable compute, storage, and scheduling priced like plumbing
 - [escapement](https://github.com/unsigned-gg/escapement) — Metered, deterministic dispatch engine for autonomous agent swarms (`escapement-serve` orchestrator daemon).
 - [soma](https://github.com/unsigned-gg/soma) — The agentic OS: governed autonomy over a persistent agent workforce (`soma-os`, terrarium federated node).
 - [mission-control](https://github.com/unsigned-gg/mission-control) — Live agent orchestration surface: LLM gateway catalog panel, AgentHub Durable Object, live fleet monitoring.
+- [dgr](https://github.com/unsigned-gg/dgr) — Real-time terminal graph renderer: renders autonomous swarm execution DAGs with animated state transitions.
 - [herdr-dagr](https://github.com/unsigned-gg/herdr-dagr) — Agent swarm as a live DAG: orchestration graph with attempts, review gates, and evidence in a split pane.
 
 ---
@@ -34,6 +50,13 @@ The engine: open, forkable compute, storage, and scheduling priced like plumbing
 - [uas](https://github.com/unsigned-gg/uas) — Unsigned Agent Substrate: Rust-native pooled harness runtime with strict zero-I/O domain layering.
 - [substrate](https://github.com/unsigned-gg/substrate) — Execution runtime primitives for persistent agent processes.
 - [ax](https://github.com/unsigned-gg/ax) — Open agentic orchestration runtime.
+
+---
+
+## Process Supervision & Systems Core
+
+- [kd](https://github.com/unsigned-gg/kd) — Pure-Rust Linux process supervisor using native `pidfd` handles and epoll loops for zombie-free supervision.
+- [od](https://github.com/unsigned-gg/od) — High-throughput TTY overdrive terminal multiplexing hook for headless agent workloads.
 
 ---
 
@@ -80,6 +103,10 @@ The engine: open, forkable compute, storage, and scheduling priced like plumbing
 
 Contributions are welcome. Please open an issue or pull request following the guidelines in CONTRIBUTING.md.
 
+---
+
 ## License
+
+All software, documentation, and research in this repository are dedicated to the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
