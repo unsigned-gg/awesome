@@ -1,0 +1,8 @@
+# Agent personas and lane configurations
+.agents/
+
+# Editor and OS artifacts
+.DS_Store
+*.swp
+*.swo
+*~
