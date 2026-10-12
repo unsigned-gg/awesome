@@ -41,7 +41,7 @@ Out of 676 two-letter permutations on crates.io, 55 remain open. Unsigned priori
 * [**dgr**](https://github.com/unsigned-gg/dgr) — DAG engine: Directed Acyclic Graph execution engine & Ratatui visualizer (dual binaries `dgr`/`dagr`).
 * [**sbx**](https://github.com/unsigned-gg/sbx) — Sandbox container framework: OS syscall jail with Landlock containment (live `v0.1.0` on crates.io).
 * **nrn** — Neuron reflex head: calibrated reflex classifier and system-one decision network.
-* [**wak**](https://github.com/unsigned-gg/waker) — Signal mesh: accept-and-hold TCP wake proxy and idle container reaper (`waker`).
+* [**wak**](https://github.com/unsigned-gg/wak) — Signal mesh: accept-and-hold TCP wake proxy and idle container reaper (`wak`).
 * [**ovf**](https://github.com/unsigned-gg/overflow) — Ring buffer: GPU-accelerated terminal emulator and overflow PTY buffer (`overflow`).
 * [**pgt**](https://github.com/unsigned-gg/pgt) — Epistemic swapper: Pretty Good Types memory engine for observation decay and knowledge folding.
 * **sma** — Microkernel domain: Soma microkernel domain providing federated capability tokens and agentic OS primitives.
