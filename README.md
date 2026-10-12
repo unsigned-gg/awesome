@@ -59,7 +59,7 @@ Out of 676 two-letter permutations on crates.io, 55 remain open. Unsigned priori
 - [The Orchestrator & Autonomous Workforces](#the-orchestrator--autonomous-workforces)
 - [Agent Substrates & Runtimes](#agent-substrates--runtimes)
 - [Process Supervision & Systems Core](#process-supervision--systems-core)
-- [Session Multiplexing & Multi-Agent Observability](#session-multiplexing--multi-agent-observability)
+- [Multi-Agent Observability & Telemetry](#multi-agent-observability--telemetry)
 - [Deterministic Dispatch & Scheduling](#deterministic-dispatch--scheduling)
 - [Sandboxing & Execution Containment](#sandboxing--execution-containment)
 - [Bare-Metal & Infrastructure](#bare-metal--infrastructure)
@@ -72,18 +72,16 @@ Out of 676 two-letter permutations on crates.io, 55 remain open. Unsigned priori
 
 - [k8](https://github.com/unsigned-gg/k8) — Kubernetes agent orchestrator, workload controller, and native CLI tooling for autonomous agent fleets.
 - [ep](https://github.com/unsigned-gg/ep) — Escapement scheduler: metered, deterministic dispatch engine for autonomous agent swarms (`ep-serve` orchestrator daemon).
+- [gs](https://github.com/unsigned-gg/gs) — Godseat control surface: operator cluster surface governing perception before action and policy gate tiers.
 - [soma](https://github.com/unsigned-gg/soma) — The agentic OS: governed autonomy over a persistent agent workforce (`soma-os`, terrarium federated node).
 - [dc](https://github.com/unsigned-gg/dc) — Dark compute & mission control: live agent orchestration surface, AgentHub Durable Object, live fleet monitoring.
 - [dgr](https://github.com/unsigned-gg/dgr) — Real-time terminal graph renderer: renders autonomous swarm execution DAGs with animated state transitions.
-- [herdr-dagr](https://github.com/unsigned-gg/herdr-dagr) — Agent swarm as a live DAG: orchestration graph with attempts, review gates, and evidence in a split pane.
 
 ---
 
 ## Agent Substrates & Runtimes
 
 - [uas](https://github.com/unsigned-gg/uas) — Unsigned Agent Substrate: Rust-native pooled harness runtime with strict zero-I/O domain layering.
-- [substrate](https://github.com/unsigned-gg/substrate) — Execution runtime primitives for persistent agent processes.
-- [ax](https://github.com/unsigned-gg/ax) — Open agentic orchestration runtime.
 
 ---
 
@@ -94,10 +92,8 @@ Out of 676 two-letter permutations on crates.io, 55 remain open. Unsigned priori
 
 ---
 
-## Session Multiplexing & Multi-Agent Observability
+## Multi-Agent Observability & Telemetry
 
-- [herdr](https://github.com/unsigned-gg/herdr) — The runtime your coding agents live on: socket API, multi-agent pane orchestration, and session state without tmux.
-- [herdr-norn](https://github.com/unsigned-gg/herdr-norn) — Synchronized scrollback per project across multiple agent panes.
 - [access-tui](https://github.com/unsigned-gg/access-tui) — Live view of connected estate systems and agent channels.
 - [toolmon](https://github.com/unsigned-gg/toolmon) — Fleet monitoring of in-house agent tools, versions, and drift across machines.
 
