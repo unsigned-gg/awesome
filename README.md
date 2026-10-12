@@ -63,7 +63,6 @@ Out of 676 two-letter permutations on crates.io, 55 remain open. Unsigned priori
 - [Deterministic Dispatch & Scheduling](#deterministic-dispatch--scheduling)
 - [Sandboxing & Execution Containment](#sandboxing--execution-containment)
 - [Bare-Metal & Infrastructure](#bare-metal--infrastructure)
-- [Terminal Interfaces & Coding Agents](#terminal-interfaces--coding-agents)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -72,9 +71,9 @@ Out of 676 two-letter permutations on crates.io, 55 remain open. Unsigned priori
 ## The Orchestrator & Autonomous Workforces
 
 - [k8](https://github.com/unsigned-gg/k8) — Kubernetes agent orchestrator, workload controller, and native CLI tooling for autonomous agent fleets.
-- [escapement](https://github.com/unsigned-gg/escapement) — Metered, deterministic dispatch engine for autonomous agent swarms (`escapement-serve` orchestrator daemon).
+- [ep](https://github.com/unsigned-gg/ep) — Escapement scheduler: metered, deterministic dispatch engine for autonomous agent swarms (`ep-serve` orchestrator daemon).
 - [soma](https://github.com/unsigned-gg/soma) — The agentic OS: governed autonomy over a persistent agent workforce (`soma-os`, terrarium federated node).
-- [mission-control](https://github.com/unsigned-gg/mission-control) — Live agent orchestration surface: LLM gateway catalog panel, AgentHub Durable Object, live fleet monitoring.
+- [dc](https://github.com/unsigned-gg/dc) — Dark compute & mission control: live agent orchestration surface, AgentHub Durable Object, live fleet monitoring.
 - [dgr](https://github.com/unsigned-gg/dgr) — Real-time terminal graph renderer: renders autonomous swarm execution DAGs with animated state transitions.
 - [herdr-dagr](https://github.com/unsigned-gg/herdr-dagr) — Agent swarm as a live DAG: orchestration graph with attempts, review gates, and evidence in a split pane.
 
@@ -106,8 +105,8 @@ Out of 676 two-letter permutations on crates.io, 55 remain open. Unsigned priori
 
 ## Deterministic Dispatch & Scheduling
 
-- [waker](https://github.com/unsigned-gg/waker) — Accept-and-hold TCP wake proxy and idle reaper for scale-to-zero workloads.
-- [escapement](https://github.com/unsigned-gg/escapement) — Agent-orchestration engine: metered, deterministic dispatch for the agent constellation.
+- [ep](https://github.com/unsigned-gg/ep) — Escapement scheduler: metered, deterministic dispatch engine for autonomous agent constellations.
+- [wak](https://github.com/unsigned-gg/wak) — Accept-and-hold TCP wake proxy and idle reaper for scale-to-zero workloads.
 
 ---
 
@@ -124,13 +123,6 @@ Out of 676 two-letter permutations on crates.io, 55 remain open. Unsigned priori
 - [unsigned-paas](https://github.com/unsigned-gg/unsigned-paas) — Kubernetes-native AI/ML PaaS: bare-metal Talos, Helm, ArgoCD, and GPU scheduling.
 - [metal-foundry](https://github.com/unsigned-gg/metal-foundry) — Talos Image Factory schematics, PXE bring-up, and bare-metal upgrade drills.
 - [cadastre](https://github.com/unsigned-gg/cadastre) — Alchemy IaC control plane for cloud and edge infrastructure.
-
----
-
-## Terminal Interfaces & Coding Agents
-
-- [omp](https://github.com/unsigned-gg/omp) — Terminal AI coding agent with hash-anchored edits, LSP, and subagent orchestration.
-- [shell-deck](https://github.com/unsigned-gg/shell-deck) — TUI shell overlay with a clickable deck of agent messages.
 
 ---
 
