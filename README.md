@@ -32,10 +32,8 @@ While conducting these tests, the organization publishes foundational research o
 - [The Orchestrator & Autonomous Workforces](#the-orchestrator--autonomous-workforces)
 - [Agent Substrates & Runtimes](#agent-substrates--runtimes)
 - [Process Supervision & Systems Core](#process-supervision--systems-core)
-- [Multi-Agent Observability & Telemetry](#multi-agent-observability--telemetry)
 - [Deterministic Dispatch & Scheduling](#deterministic-dispatch--scheduling)
 - [Sandboxing & Execution Containment](#sandboxing--execution-containment)
-- [Bare-Metal & Infrastructure](#bare-metal--infrastructure)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -45,8 +43,6 @@ While conducting these tests, the organization publishes foundational research o
 
 - [k8](https://github.com/unsigned-gg/k8) — Kubernetes agent orchestrator, workload controller, and native CLI tooling for autonomous agent fleets.
 - [gs](https://github.com/unsigned-gg/gs) — Godseat control surface: operator cluster surface governing perception before action and policy gate tiers.
-- [soma](https://github.com/unsigned-gg/soma) — The agentic OS: governed autonomy over a persistent agent workforce (`soma-os`, terrarium federated node).
-- [dc](https://github.com/unsigned-gg/dc) — Dark compute & mission control: live agent orchestration surface, AgentHub Durable Object, live fleet monitoring.
 - [dgr](https://github.com/unsigned-gg/dgr) — Real-time terminal graph renderer: renders autonomous swarm execution DAGs with animated state transitions.
 
 ---
@@ -60,14 +56,6 @@ While conducting these tests, the organization publishes foundational research o
 ## Process Supervision & Systems Core
 
 - [kd](https://github.com/unsigned-gg/kd) — Pure-Rust Linux process supervisor using native `pidfd` handles and epoll loops for zombie-free supervision.
-- [od](https://github.com/unsigned-gg/od) — Terminal multiplexing hook with high TTY throughput for headless agent workloads.
-
----
-
-## Multi-Agent Observability & Telemetry
-
-- [access-tui](https://github.com/unsigned-gg/access-tui) — Live view of connected estate systems and agent channels.
-- [toolmon](https://github.com/unsigned-gg/toolmon) — Fleet monitoring of in-house agent tools, versions, and drift across machines.
 
 ---
 
@@ -80,17 +68,10 @@ While conducting these tests, the organization publishes foundational research o
 
 ## Sandboxing & Execution Containment
 
-- [sbx](https://github.com/unsigned-gg/sbx) — AI-containment layer for agent execution: OS syscall jail with reversible run-custody records in Rust.
+- [sbx](https://crates.io/crates/sbx) — AI-containment layer for agent execution: OS syscall jail with reversible run-custody records in Rust.
+- [sbxd](https://crates.io/crates/sbxd) — Custody daemon for agent containment: server and orchestrator for Landlock jails.
+- [sbx-core](https://crates.io/crates/sbx-core) — Run-custody model: retained changesets and the settle state machine.
 - [reach](https://github.com/unsigned-gg/reach) — AI-drivable containerized desktop sandbox.
-- [overflow](https://github.com/unsigned-gg/overflow) — GPU-accelerated, agent-aware terminal emulator in Rust (wgpu, ConPTY).
-
----
-
-## Bare-Metal & Infrastructure
-
-- [unsigned-paas](https://github.com/unsigned-gg/unsigned-paas) — Kubernetes-native AI/ML PaaS: bare-metal Talos, Helm, ArgoCD, and GPU scheduling.
-- [metal-foundry](https://github.com/unsigned-gg/metal-foundry) — Talos Image Factory schematics, PXE bring-up, and bare-metal upgrade drills.
-- [cadastre](https://github.com/unsigned-gg/cadastre) — Alchemy IaC control plane for cloud and edge infrastructure.
 
 ---
 
