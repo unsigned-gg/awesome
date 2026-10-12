@@ -26,9 +26,36 @@ While running these tests, the organization lands foundational research on machi
 
 ---
 
+## The Namespace Strategy
+
+### Tactical 2-Letter Targets (8.1% Available)
+Out of 676 two-letter permutations on crates.io, 55 remain open. Unsigned prioritizes six tactical targets:
+* [**kd**](https://github.com/unsigned-gg/kd) — Pure-Rust Linux process supervisor using native `pidfd` handles and epoll loops (zero zombies).
+* [**ep**](https://github.com/unsigned-gg/ep) — Escapement scheduler: metered, deterministic dispatch engine and event reactor.
+* [**dc**](https://github.com/unsigned-gg/dc) — Dark compute runner: headless compute executor, dark factory scheduler, and desired configuration reconciler.
+* [**gs**](https://github.com/unsigned-gg/gs) — Godseat control surface: operator cluster surface governing perception before action and policy gate tiers.
+* [**kl**](https://github.com/unsigned-gg/kl) — Kernel link eBPF: Linux Landlock LSM file rules, seccomp BPF syscall filters, and eBPF probes.
+* [**ls**](https://github.com/unsigned-gg/ls) — LeanSpec parser: formal Lean specification parser, structural AST validator, and CAS listing engine.
+
+### Core 3-Letter Systems Matrix
+* [**dgr**](https://github.com/unsigned-gg/dgr) — DAG engine: Directed Acyclic Graph execution engine & Ratatui visualizer (dual binaries `dgr`/`dagr`).
+* [**sbx**](https://github.com/unsigned-gg/sbx) — Sandbox container framework: OS syscall jail with Landlock containment (live `v0.1.0` on crates.io).
+* **nrn** — Neuron reflex head: calibrated reflex classifier and system-one decision network.
+* [**wak**](https://github.com/unsigned-gg/waker) — Signal mesh: accept-and-hold TCP wake proxy and idle container reaper (`waker`).
+* [**ovf**](https://github.com/unsigned-gg/overflow) — Ring buffer: GPU-accelerated terminal emulator and overflow PTY buffer (`overflow`).
+* [**pgt**](https://github.com/unsigned-gg/pgt) — Epistemic swapper: Pretty Good Types memory engine for observation decay and knowledge folding.
+* **sma** — Microkernel domain: Soma microkernel domain providing federated capability tokens and agentic OS primitives.
+
+### The Anti-Squatting Rule
+* **24-Hour Deletion Lock:** Any crate deletion on crates.io triggers an exact 24-hour registry lock on that name.
+* **Substantive Code Mandate:** Unsigned prohibits empty placeholder crates. Every reservation must publish working, compilation-verified code immediately.
+
+---
+
 ## Contents
 
 - [Mission & Public Domain Charter](#mission--public-domain-charter)
+- [The Namespace Strategy](#the-namespace-strategy)
 - [The Orchestrator & Autonomous Workforces](#the-orchestrator--autonomous-workforces)
 - [Agent Substrates & Runtimes](#agent-substrates--runtimes)
 - [Process Supervision & Systems Core](#process-supervision--systems-core)
