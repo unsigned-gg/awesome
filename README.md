@@ -31,6 +31,8 @@ While conducting these tests, the organization publishes foundational research o
 - [Mission & Public Domain Charter](#mission--public-domain-charter)
 - [The Orchestrator & Autonomous Workforces](#the-orchestrator--autonomous-workforces)
 - [Agent Substrates & Runtimes](#agent-substrates--runtimes)
+- [Agent Identity & Dynamic Registration](#agent-identity--dynamic-registration)
+- [Agent Tooling & Model Context Protocol](#agent-tooling--model-context-protocol)
 - [Process Supervision & Systems Core](#process-supervision--systems-core)
 - [Deterministic Dispatch & Scheduling](#deterministic-dispatch--scheduling)
 - [Sandboxing & Execution Containment](#sandboxing--execution-containment)
@@ -50,6 +52,23 @@ While conducting these tests, the organization publishes foundational research o
 ## Agent Substrates & Runtimes
 
 - [uas](https://github.com/unsigned-gg/uas) — Unsigned Agent Substrate: Rust-native pooled harness runtime with strict zero-I/O domain layering.
+
+---
+
+## Agent Identity & Dynamic Registration
+
+- [kanidm](https://github.com/kanidm/kanidm) — Fast, memory-safe enterprise identity platform in pure Rust with OAuth2 and OpenID Connect.
+- [hydra](https://github.com/ory/hydra) — Headless OAuth2 and OpenID Connect server in Go with native RFC 7591 dynamic client registration.
+- [oauth2-test-server](https://crates.io/crates/oauth2-test-server) — In-memory OAuth2 and OpenID Connect server in Rust with native RFC 7591 dynamic registration.
+- [openidconnect](https://crates.io/crates/openidconnect) — OpenID Connect crate in Rust supporting RFC 7591 client registration and token discovery.
+
+---
+
+## Agent Tooling & Model Context Protocol
+
+- [rust-sdk](https://github.com/modelcontextprotocol/rust-sdk) — Official Model Context Protocol SDK in Rust for building clients, servers, and agents.
+- [hyper-mcp-remote](https://github.com/hyper-mcp-rs/hyper-mcp-remote) — Transport proxy bridging local stdio MCP clients to remote servers via Streamable HTTP with OAuth 2.1.
+- [rust-mcp-sdk](https://github.com/rust-mcp-stack/rust-mcp-sdk) — Asynchronous Rust SDK for building MCP clients and servers with stdio and HTTP transports.
 
 ---
 
