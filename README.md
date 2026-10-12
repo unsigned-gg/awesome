@@ -8,6 +8,8 @@ The engine: open, forkable compute, storage, and scheduling priced like plumbing
 
 ## Mission & Public Domain Charter
 
+> *"A better future through mutual cooperation between man and machine."*
+
 The **unsigned** organization exists to test agent swarm control, governance, and security in production environments.
 While running these tests, the organization lands foundational research on machine sympathy, systems security, and mathematical- and engineering-driven development:
 
@@ -15,6 +17,12 @@ While running these tests, the organization lands foundational research on machi
 * **Machine Sympathy:** Hardware-sympathetic systems engineering, zero-allocation domain crates, `pidfd` process management, and deterministic instruction-count profiling.
 * **Mathematical & Engineering-Driven Development:** Operational semantics, model checking, and formal verification over empirical guesswork.
 * **Permanent Public Domain:** All work, codebases, specifications, and research findings in this organization remain permanently in the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+
+### Community Constitution & Standards
+* [Commitments to Privacy, Freedom, and Dignity](https://github.com/unsigned-gg/.github/blob/main/PRIVACY_FREEDOM_DIGNITY.md) — Mutual cooperation between man and machine, local-first computing, zero telemetry.
+* [Guiding Principles, Mottos & Northstars](https://github.com/unsigned-gg/.github/blob/main/GUIDING_PRINCIPLES.md) — Machine sympathy, soundness over speed, and the Northstars.
+* [Community Standards & Code of Conduct](https://github.com/unsigned-gg/.github/blob/main/COMMUNITY_STANDARDS.md) — Intellectual honesty, blameless inquiry, and mutual respect.
+* [Brand Voice & Style Guide](https://github.com/unsigned-gg/.github/blob/main/BRAND_VOICE.md) — ASD-STE100 precision and the Cat B hacker register.
 
 ---
 
