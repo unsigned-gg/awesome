@@ -46,12 +46,14 @@ While conducting these tests, the organization publishes foundational research o
 - [k8](https://github.com/unsigned-gg/k8) — Kubernetes agent orchestrator, workload controller, and native CLI tooling for autonomous agent fleets.
 - [gs](https://github.com/unsigned-gg/gs) — Godseat control surface: operator cluster surface governing perception before action and policy gate tiers.
 - [dgr](https://github.com/unsigned-gg/dgr) — Real-time terminal graph renderer: renders autonomous swarm execution DAGs with animated state transitions.
+- [herdr](https://github.com/unsigned-gg/herdr) — Autonomous agent session runtime, process coordination, and streaming TTY multiplexer.
 
 ---
 
 ## Agent Substrates & Runtimes
 
 - [uas](https://github.com/unsigned-gg/uas) — Unsigned Agent Substrate: Rust-native pooled harness runtime with strict zero-I/O domain layering.
+- [ls](https://github.com/unsigned-gg/ls) — LeanSpec formal specification engine: zero-I/O AST parser, structural validator, EARS requirement conformance, and 256-bit BLAKE3 CAS listing.
 
 ---
 
@@ -87,6 +89,7 @@ While conducting these tests, the organization publishes foundational research o
 
 ## Sandboxing & Execution Containment
 
+- [kl](https://github.com/unsigned-gg/kl) — Kernel Layer primitives: pure-Rust Landlock LSM ruleset compiler, seccomp-BPF system call filtering, and namespace isolation.
 - [sbx](https://crates.io/crates/sbx) — AI-containment layer for agent execution: OS syscall jail with reversible run-custody records in Rust.
 - [sbxd](https://crates.io/crates/sbxd) — Custody daemon for agent containment: server and orchestrator for Landlock jails.
 - [sbx-core](https://crates.io/crates/sbx-core) — Run-custody model: retained changesets and the settle state machine.
