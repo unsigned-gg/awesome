@@ -2,7 +2,7 @@
 
 > A curated catalog of autonomous agent orchestrators, pooled harnesses, bare-metal infrastructure, and machine sympathy research across [unsigned.gg](https://unsigned.gg) and the open systems community.
 
-The engine: open, forkable compute, storage, and scheduling priced like plumbing.
+The infrastructure provides open, forkable compute, storage, and scheduling at commodity utility rates.
 
 ---
 
@@ -11,7 +11,7 @@ The engine: open, forkable compute, storage, and scheduling priced like plumbing
 > *"A better future through mutual cooperation between man and machine."*
 
 The **unsigned** organization exists to test agent swarm control, governance, and security in production environments.
-While running these tests, the organization lands foundational research on machine sympathy, systems security, and mathematical- and engineering-driven development:
+While conducting these tests, the organization publishes foundational research on machine sympathy, systems security, and mathematical- and engineering-driven development:
 
 * **Swarm Control, Governance & Security:** Testing autonomous agent fleets, capability confinement, Landlock LSM containment, and cryptographic attestation.
 * **Machine Sympathy:** Hardware-sympathetic systems engineering, zero-allocation domain crates, `pidfd` process management, and deterministic instruction-count profiling.
@@ -20,7 +20,7 @@ While running these tests, the organization lands foundational research on machi
 
 ### Community Constitution & Standards
 * [Commitments to Privacy, Freedom, and Dignity](https://github.com/unsigned-gg/.github/blob/main/PRIVACY_FREEDOM_DIGNITY.md) — Mutual cooperation between man and machine, local-first computing, zero telemetry.
-* [Guiding Principles, Mottos & Northstars](https://github.com/unsigned-gg/.github/blob/main/GUIDING_PRINCIPLES.md) — Machine sympathy, soundness over speed, and the Northstars.
+* [Guiding Principles, Mottos & Northstars](https://github.com/unsigned-gg/.github/blob/main/GUIDING_PRINCIPLES.md) — Machine sympathy, soundness over speed, and strategic objectives.
 * [Community Standards & Code of Conduct](https://github.com/unsigned-gg/.github/blob/main/COMMUNITY_STANDARDS.md) — Intellectual honesty, blameless inquiry, and mutual respect.
 * [Brand Voice & Style Guide](https://github.com/unsigned-gg/.github/blob/main/BRAND_VOICE.md) — ASD-STE100 precision and the Cat B hacker register.
 
@@ -44,7 +44,6 @@ While running these tests, the organization lands foundational research on machi
 ## The Orchestrator & Autonomous Workforces
 
 - [k8](https://github.com/unsigned-gg/k8) — Kubernetes agent orchestrator, workload controller, and native CLI tooling for autonomous agent fleets.
-- [ep](https://github.com/unsigned-gg/ep) — Escapement scheduler: metered, deterministic dispatch engine for autonomous agent swarms (`ep-serve` orchestrator daemon).
 - [gs](https://github.com/unsigned-gg/gs) — Godseat control surface: operator cluster surface governing perception before action and policy gate tiers.
 - [soma](https://github.com/unsigned-gg/soma) — The agentic OS: governed autonomy over a persistent agent workforce (`soma-os`, terrarium federated node).
 - [dc](https://github.com/unsigned-gg/dc) — Dark compute & mission control: live agent orchestration surface, AgentHub Durable Object, live fleet monitoring.
@@ -61,7 +60,7 @@ While running these tests, the organization lands foundational research on machi
 ## Process Supervision & Systems Core
 
 - [kd](https://github.com/unsigned-gg/kd) — Pure-Rust Linux process supervisor using native `pidfd` handles and epoll loops for zombie-free supervision.
-- [od](https://github.com/unsigned-gg/od) — High-throughput TTY overdrive terminal multiplexing hook for headless agent workloads.
+- [od](https://github.com/unsigned-gg/od) — Terminal multiplexing hook with high TTY throughput for headless agent workloads.
 
 ---
 
@@ -74,7 +73,7 @@ While running these tests, the organization lands foundational research on machi
 
 ## Deterministic Dispatch & Scheduling
 
-- [ep](https://github.com/unsigned-gg/ep) — Escapement scheduler: metered, deterministic dispatch engine for autonomous agent constellations.
+- [ep](https://github.com/unsigned-gg/ep) — Escapement scheduler: metered, deterministic dispatch engine for autonomous agent swarms (`ep-serve` orchestrator daemon).
 - [wak](https://github.com/unsigned-gg/wak) — Accept-and-hold TCP wake proxy and idle reaper for scale-to-zero workloads.
 
 ---
@@ -97,7 +96,7 @@ While running these tests, the organization lands foundational research on machi
 
 ## Contributing
 
-Contributions are welcome. Please open an issue or pull request following the guidelines in CONTRIBUTING.md.
+Contributions are welcome. Open an issue or pull request. Follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 
